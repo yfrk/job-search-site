@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+
+#nav {
+    position: fixed;
+    height: 56px;
+    z-index: 1;
+}
+
+#frame {
+    height: 100%;
+}
+
+#mainFrame {
+    overflow-y: scroll;
+}
+
+#framePadding {
+    height: 56px;
+}
+
+.edit, .upload {
+    cursor: pointer;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
